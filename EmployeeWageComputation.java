@@ -1,6 +1,5 @@
 class Employee{
 	public static void main(String[] args) {
-        System.out.println("===== WELCOME TO EMPLOYEE WAGE COMPUTATION ======");
 		 int wagePerHour;
 		    int fullDay;
 		    int halfDay;
@@ -132,6 +131,7 @@ class Employee{
 		        EmployeeWageComputation TataMotors = new EmployeeWageComputation("Tata Motors", 20, 5);
 		        EmployeeWageComputation Bridgelabz = new EmployeeWageComputation("Bridelabz", 16, 6);
 		        EmployeeWageComputation SamSolutions = new EmployeeWageComputation("Sam Solutions", 25, 3);
+		        System.out.println("===== WELCOME TO EMPLOYEE WAGE COMPUTATION ======");
 		        System.out.println("");
 		        char userChoice = 'Y' ;
 		        while (userChoice == 'Y') {
